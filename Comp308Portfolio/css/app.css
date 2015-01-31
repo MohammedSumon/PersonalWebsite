@@ -37,9 +37,10 @@ ul {
     list-style-type:none;
 }
 .navbar-default {
-	padding: 30px 0 15px 0;
+	padding: 10px 0 10px 0;
     top: 0px;
     left: 0px;
+    outline:solid 5px green;
 }
 .navbar-default .navbar-brand {
 	color: #555;
@@ -86,14 +87,13 @@ ul {
 #section_header {
 	text-align: center;
 	background-color: #f6f6f6;
-	padding: 10px 0;
-	margin-bottom: 10px;
-	margin-top: 10px;
 }
 #section_header h2 span, #welcome p span {
 	border-bottom: 2px solid #dc4a49;
 }
 #section_header h2 {
+    marquee-style:
+    font-size:75px;
 	color: #aaa;
 	text-shadow: 1px 1px #fff;
 }

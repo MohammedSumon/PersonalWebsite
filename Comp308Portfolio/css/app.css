@@ -6,6 +6,9 @@
 	color: #0d0b0b;
 
 }
+#services .container .row{
+    padding:20px;
+}
 body a {
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -13,10 +16,7 @@ body a {
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 }
-.header-banner_#keepconnected{
-    border-color:#0d0b0b;
-    border-width:5px
-}
+
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	margin-right: 0;
@@ -87,13 +87,15 @@ ul {
 #section_header {
 	text-align: center;
 	background-color: #f6f6f6;
+    
 }
 #section_header h2 span, #welcome p span {
 	border-bottom: 2px solid #dc4a49;
 }
+
 #section_header h2 {
-    marquee-style:
-    font-size:75px;
+   
+    font-size:50px;
 	color: #aaa;
 	text-shadow: 1px 1px #fff;
 }

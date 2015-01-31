@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -67,27 +71,31 @@
   <ItemGroup>
     <Content Include="about.html" />
     <Content Include="Contact.html" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\about1.jpg" />
     <Content Include="images\about2.jpg" />
     <Content Include="images\arrows.png" />
     <Content Include="images\blog.png" />
     <Content Include="images\bnr1.jpg" />
-    <Content Include="images\bnr2.jpg" />
-    <Content Include="images\bnr3.jpg" />
+    <Content Include="images\consult.jpg" />
     <Content Include="images\fb.png" />
     <Content Include="images\pint.png" />
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="images\pm.jpg" />
+    <Content Include="images\prgramming.jpg" />
     <Content Include="images\skype.png" />
     <Content Include="images\twitter.png" />
     <Content Include="images\utube.png" />
+    <Content Include="images\webDesign.jpg" />
     <Content Include="index.html" />
     <Content Include="Scripts\lib\app.js" />
     <Content Include="Scripts\lib\bootstrap.js" />
     <Content Include="Scripts\lib\bootstrap.min.js" />
     <Content Include="Scripts\lib\jquery.min.js" />
     <None Include="Scripts\_references.js" />
+    <Content Include="Services.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

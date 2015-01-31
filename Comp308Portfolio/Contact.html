@@ -12,23 +12,25 @@
     <script src="Scripts/lib/jquery.min.js"></script>
 </head>
 <body>
+    <!--Navigation Section-->
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Me</a></li>
-                        <li class="active"><a href="#">Contact Me</a></li>
-                        <li><a href="Services.html">Services</a></li>
+                        <li><a class="active glyphicon glyphicon-home" href="index.html">Home</a></li>
+                        <li><a class="glyphicon glyphicon-plus" href="about.html">About Me</a></li>
+                        <li class="active"><a class="glyphicon glyphicon-phone" href="#">Contact Me</a></li>
+                        <li><a class="glyphicon glyphicon-briefcase" href="Services.html">Services</a></li>
+                        <li><a class="glyphicon glyphicon-star-empty" href="projects.html">Featured Work</a></li>
                         <li><a href="https://github.com/MohammedSumon">GitHub</a></li>
-                        <li><a href="#">Projects</a></li>
                     </ul>
                 </div>
             </div>
-            </div>
-    </nav>    
+        </div>
+    </nav>
+    <!--Keep Connected Panel-->
     <div class="row text-center">
         <ul>
             <li>
@@ -51,22 +53,36 @@
             </li>
         </ul>
     </div>
+    <!--Get in Touch Container-->
     <div id="section_header">
         <div class="container">
-            <h2><span>Get in Touch!</span></h2>
+            <h2>Get in Touch!</h2>
         </div>
     </div>
     <div class="contact">
         <div class="container">
-            <div class="col-md-6">
-                <h3>Contact info</h3>
-                <p><span>Address:</span> 941 Progress Avenue, Centennial College</p>
-                <p><span>Email:</span> msumon@my.centennialcollege.ca</p>
-                <p><span>Phone:</span>(647)202-5110</p>
-                <button type="submit" value="Submit" name="Submit" onclick(href="www.gmail.com" )>Send me a Message!!</button>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contact info</h3>
+                    <p><span>Address:</span> 941 Progress Avenue, Centennial College</p>
+                    <p><span>Email:</span> msumon@my.centennialcollege.ca</p>
+                    <p><span>Phone:</span>(647)202-5110</p>
 
+                </div>
+                <!--Form Details Section-->
+                <div class="col-md-6">
+                    <form>
+                        <div class="form_details">
+                            <input type="text" class="text" value="Name">
+                            <input type="text" class="text" value="Email Address">
+                            <input type="text" class="text" value="Subject">
+                            <textarea value="Message">Message</textarea>
+                            <div class="clearfix"> </div>
+                            <button class="btn" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-
         </div>
     </div>
     <!-- Footer -->

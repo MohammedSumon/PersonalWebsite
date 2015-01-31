@@ -75,6 +75,9 @@
     <Content Include="images\about1.jpg" />
     <Content Include="images\about2.jpg" />
     <Content Include="images\arrows.png" />
+    <Content Include="images\bg1.jpg" />
+    <Content Include="images\bg2.jpg" />
+    <Content Include="images\bg3.jpg" />
     <Content Include="images\blog.png" />
     <Content Include="images\bnr1.jpg" />
     <Content Include="images\consult.jpg" />
@@ -85,11 +88,13 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="images\pm.jpg" />
     <Content Include="images\prgramming.jpg" />
+    <Content Include="images\projPic.jpg" />
     <Content Include="images\skype.png" />
     <Content Include="images\twitter.png" />
     <Content Include="images\utube.png" />
     <Content Include="images\webDesign.jpg" />
     <Content Include="index.html" />
+    <Content Include="projects.html" />
     <Content Include="Scripts\lib\app.js" />
     <Content Include="Scripts\lib\bootstrap.js" />
     <Content Include="Scripts\lib\bootstrap.min.js" />

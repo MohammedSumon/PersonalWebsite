@@ -82,6 +82,7 @@
     <Content Include="images\bnr1.jpg" />
     <Content Include="images\consult.jpg" />
     <Content Include="images\fb.png" />
+    <Content Include="images\logo.jpg" />
     <Content Include="images\pint.png" />
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
